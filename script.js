@@ -15,7 +15,7 @@ while (contagem >= 1) {
   contagem--;
 }
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 0; i <= 100; i++) {
   i % 2 !== 0 && contador3.push(i);
   i % 2 === 0 && contador4.push(i);
 }
